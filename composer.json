@@ -1,0 +1,24 @@
+{
+    "name": "maximaster/bitrix-table-fields",
+    "description": "Дополнительные типы полей и валидаторы для ваших таблиц.",
+    "license": "MIT",
+    "authors": [
+        {"name": "Лавриненко Максим", "email": "maxim.lavrinenko@maximaster.ru"},
+        {"name": "Мельников Максим", "email": "m.melnikov@maximaster.ru"},
+        {"name": "Лепесин Сергей", "email": "s.lepesin@maximaster.ru"}
+    ],
+    "autoload": {
+        "psr-4": {
+            "Maximaster\\BitrixTableFields\\": "src/"
+        }
+    },
+    "require": {
+        "maximaster/bitrix-enums": ">=18.5",
+        "maximaster/bitrix-orm-condition": "^1.0.0",
+        "webmozart/assert": "^1.10"
+    },
+    "suggest": {
+        "ramsey/uuid": "^4.1 для использования GuidField",
+        "symfony/string": "^5.4 для использования ExternalField"
+    }
+}
